@@ -1,4 +1,4 @@
-[![Go Reference](https://pkg.go.dev/badge/github.com/wk8/go-ordered-map/v2.svg)](https://pkg.go.dev/github.com/wk8/go-ordered-map/v2)
+[![Go Reference](https://pkg.go.dev/badge/github.com/pb33f/ordered-map.svg)](https://pkg.go.dev/github.com/pb33f/ordered-map)
 [![Build Status](https://circleci.com/gh/wk8/go-ordered-map.svg?style=svg)](https://app.circleci.com/pipelines/github/wk8/go-ordered-map)
 
 # Golang Ordered Maps
@@ -15,11 +15,11 @@ It offers the following features:
 
 ## Documentation
 
-[The full documentation is available on pkg.go.dev](https://pkg.go.dev/github.com/wk8/go-ordered-map/v2).
+[The full documentation is available on pkg.go.dev](https://pkg.go.dev/github.com/pb33f/ordered-map).
 
 ## Installation
 ```bash
-go get -u github.com/wk8/go-ordered-map/v2
+go get -u github.com/pb33f/ordered-map
 ```
 
 Or use your favorite golang vendoring tool!
@@ -41,7 +41,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/wk8/go-ordered-map/v2"
+	"github.com/pb33f/ordered-map"
 )
 
 func main() {
