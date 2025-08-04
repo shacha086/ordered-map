@@ -1,7 +1,12 @@
-[![Go Reference](https://pkg.go.dev/badge/github.com/pb33f/ordered-map.svg)](https://pkg.go.dev/github.com/pb33f/ordered-map)
-[![Build Status](https://circleci.com/gh/wk8/go-ordered-map.svg?style=svg)](https://app.circleci.com/pipelines/github/wk8/go-ordered-map)
+# Ordered Maps
 
-# Golang Ordered Maps
+This repo was forked from [wk8/go-ordered-map](https://github.com/wk8/go-ordered-map) because of this: https://github.com/pb33f/libopenapi/issues/446
+
+The [easyjson](https://github.com/mailru/easyjson) library which the wk8/go-ordered-map project depends on is now considered a **security risk** to pb33f.
+
+So we forked it and removed the dependency on easyjson.
+
+---
 
 Same as regular maps, but also remembers the order in which keys were inserted, akin to [Python's `collections.OrderedDict`s](https://docs.python.org/3.7/library/collections.html#ordereddict-objects).
 
