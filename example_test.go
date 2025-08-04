@@ -4,7 +4,7 @@ import (
     "encoding/json"
     "fmt"
 
-    "github.com/pb33f/ordered-map"
+    "github.com/pb33f/ordered-map/v2"
 )
 
 func Example() {
