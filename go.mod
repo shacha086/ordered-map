@@ -1,4 +1,4 @@
-module github.com/pb33f/ordered-map/v2
+module github.com/shacha086/ordered-map/v2
 
 go 1.24
 
